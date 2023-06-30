@@ -23,4 +23,4 @@ Trying to find what to do and what not to do as someone who wants to gain profit
    
    P-value calculator: https://www.datacourses.com/find-p-value-significance-in-scikit-learn-3810/
    
-   Medium Post: 
+   Medium Post: https://medium.com/@faris.majdali/are-you-leasing-in-boston-b1df9c009e87
