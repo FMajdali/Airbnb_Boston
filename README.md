@@ -17,7 +17,10 @@ Trying to find what to do and what not to do as someone who wants to gain profit
 
 7) Sources and links:
 
-1) Positive words list: https://gist.github.com/mkulakowski2/4289437
-2) Negtive words list: https://gist.github.com/mkulakowski2/4289441
-3) P-value calculator: https://www.datacourses.com/find-p-value-significance-in-scikit-learn-3810/
-4) Medium Post: 
+   Positive words list: https://gist.github.com/mkulakowski2/4289437
+   
+   Negtive words list: https://gist.github.com/mkulakowski2/4289441
+   
+   P-value calculator: https://www.datacourses.com/find-p-value-significance-in-scikit-learn-3810/
+   
+   Medium Post: 
