@@ -2,20 +2,35 @@
 Analysis of Airbnb Boston dataset
 
 Trying to find what to do and what not to do as someone who wants to gain profit from Airbnb in Boston:
+1) Installations:
+   
+   Jupyter notebook: https://jupyter.org/install
 
-1) What is Airbnb: it is a website that allows any individual to lease a property for a short duration, Airbnb business model is based on charging a commission on the leasers.
+   Python libraries:
+   Pandas,
+   Numpy,
+   Matplotlib,
+   Seaborn,
+   OS,
+   Sklearn,
+   Scipy,
+   ast.
 
-2) The data consists of three data sets (The data timeframe is one year): a listings data set which has all the information shown on the website about the property, a reviews data set that contains all the people's reviews regarding the property, and a calendar data set which when the property was available and when it was not
+2) Project motivations:
 
-3) Cleaning and wrangling: The data was cleaned and prepared as seen in the Jupyter notebook attached in the respiratory: I have tried to find the positivity of a comment in a very basic way, I have gathered a list of positive and negative adjectives, then found the ratios of positive and negative adjectives to the length of the comment, then the data was aggregated as an average for each specific property, the new reviews dataset is attached in the respiratory
+   I have done this analysis to satisfy a requirement for the Data Scientist Nanodegree offered by Udacity, it was an interesting journey where I learned a lot about Airbnb.
 
-4) Modeling: The data was modeled to find the best predictors for the response obtained from the calendar dataset which is "not_available_rate", it is assumed that if the property is not available on a certain day then it is leased, the higher the value the better, then the reviews data set and relevant columns in the listing dataset were used to predict the response.
+3) File Descriptions:
 
-5) Results: after multiple iterations the final model explains 21% of the variation in the response variable, there might be more factors that contribute to the "not_available_rate" rather than the website itself.
+   Airbnb_Boston.ipynb: a Jupyter notebook where all the analyses were done.
 
-6) Some suggestions were made at the end of the notebook and in the Medium post found below.
+   CSV files.zip: a zip file that contains three CSV files: the cleaned reviews data set, a file that contains a list of positive adjectives, and a file that contains a list of negative adjectives
 
-7) Sources and links:
+4) The best way to use this project is by running the whole notebook except the part where the cleaning of the reviews data set is happening as I have already done this part, each trial is separated so you can run totally by itself (you can do that if you at least fully run the notebook for one time)
+   
+6) Sources and links:
+
+   Data Source: https://www.kaggle.com/datasets/airbnb/boston
 
    Positive words list: https://gist.github.com/mkulakowski2/4289437
    
